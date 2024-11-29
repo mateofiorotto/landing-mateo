@@ -136,11 +136,11 @@ function secretSection() {
 
 
 //botonIMG
-let clickCucumber = document.getElementById('photo-cucumber')
+let clickHere = document.getElementById('click-here')
 let lumberSection = document.getElementById('lumber-section')
 let siteContent = document.getElementById('site')
 
-clickCucumber.addEventListener("click", lumberGame);
+clickHere.addEventListener("click", lumberGame);
 
 function lumberGame() {
     lumberSection.classList.add('d-block')
@@ -160,4 +160,107 @@ function lumberClosed() {
     lumberSection.classList.remove('d-block')
     lumberSection.classList.add('d-none')
 }
+
+let lang = document.documentElement.lang;
+let rowSkills = document.getElementById('row-skills');
+let rowHobbies = document.getElementById('row-hobbies');
+
+if (lang === "en") {
+    let skills = [
+        { name: "HTML", img: "imgs/html5.png", description: "Web content structuring" },
+        { name: "CSS", img: "imgs/css3.png", description: "Styling web pages" },
+        { name: "JavaScript", img: "imgs/javascript.png", description: "Frontend interactivity and logic" },
+        { name: "Bootstrap", img: "imgs/bootstrap.png", description: "Framework for responsive design" },
+        { name: "Tailwind CSS", img: "imgs/tailwind.png", description: "Utility-first CSS framework" },
+        { name: "Sass", img: "imgs/sass.png", description: "CSS preprocessor for advanced styling" },
+        { name: "MySQL", img: "imgs/mysql.png", description: "Relational database management system" },
+        { name: "PHP", img: "imgs/php.png", description: "Programming language for backend development" },
+        { name: "Git", img: "imgs/git.png", description: "Version control and project collaboration" },
+        { name: "Vue.js", img: "imgs/vue.png", description: "Framework for building user interfaces" }
+    ];
+
+    let hobbies = [
+        { title: "Programming", img: "imgs/programming.webp"},
+        { title: "Play Videogames", img: "imgs/videogames.webp"},
+        { title: "Learn", img: "imgs/learn.webp"}
+    ]
+
+    skills.forEach(function(skill, index) {
+        rowSkills.innerHTML += `
+                <div data-aos="fade-up" class="col-lg-6 col-md-10 pt-3 pb-3 pt-lg-5 pb-lg-5 m-auto">
+                        <div class="row mt-5 mb-5 mt-lg-1 mb-lg-1">
+                            <!--img-->
+                            <div class="border bg-light p-4 col-lg-3 d-flex justify-content-center align-items-center">
+                                <img class="img-fluid w-100" src="${skill.img}" alt="${skill.name} Icon">
+                            </div>
+                            <!--contenido caja-->
+                            <div class="border p-4 col-lg-8 col-md-12">
+                                <h3>${skill.name}</h3>
+                                <p>${skill.description}.
+                            </div>
+                        </div>
+                    </div>
+        `
+        
+    })
+
+    hobbies.forEach(function(hobbie,index){
+        rowHobbies.innerHTML += `
+            <div class="col-lg-4 p-4 col-md-10 text-center">
+                <img src="${hobbie.img}" alt="Hobbie ${hobbie.title}" class="w-75 img-fluid">
+                <h3 class="pt-5">${hobbie.title}</h3>
+            </div>
+        `
+    })
+    
+} else if (lang === "es") {
+    let skills = [
+        { name: "HTML", img: "imgs/html5.png", description: "Estructuración del contenido web" },
+        { name: "CSS", img: "imgs/css3.png", description: "Estilización de las páginas web" },
+        { name: "JavaScript", img: "imgs/javascript.png", description: "Interactividad y lógica en el frontend" },
+        { name: "Bootstrap", img: "imgs/bootstrap.png", description: "Framework para diseño responsivo" },
+        { name: "Tailwind CSS", img: "imgs/tailwind.png", description: "Framework de utilidades para estilos" },
+        { name: "SASS", img: "imgs/sass.png", description: "Preprocesador de CSS para estilos avanzados" },
+        { name: "MySQL", img: "imgs/mysql.png", description: "Sistema de gestión de bases de datos relacionales" },
+        { name: "PHP", img: "imgs/php.png", description: "Lenguaje de programación para el backend" },
+        { name: "Git", img: "imgs/git.png", description: "Control de versiones y colaboración en proyectos" },
+        { name: "Vue.js", img: "imgs/vue.png", description: "Framework para construir interfaces de usuario" }
+    ]
+
+    
+    let hobbies = [
+        { title: "Programar", img: "imgs/programming.webp"},
+        { title: "Jugar Videojuegos", img: "imgs/videogames.webp"},
+        { title: "Aprender", img: "imgs/learn.webp"}
+    ]
+
+    skills.forEach(function(skill, index) {
+        rowSkills.innerHTML += `
+                <div data-aos="fade-up" class="col-lg-6 col-md-10 pt-3 pb-3 pt-lg-5 pb-lg-5 m-auto">
+                        <div class="row mt-5 mb-5 mt-lg-1 mb-lg-1">
+                            <!--img-->
+                            <div class="border bg-light p-4 col-lg-3 d-flex justify-content-center align-items-center">
+                                <img class="img-fluid w-100" src="${skill.img}" alt="${skill.name} Icon">
+                            </div>
+                            <!--contenido caja-->
+                            <div class="border p-4 col-lg-8 col-md-12">
+                                <h3>${skill.name}</h3>
+                                <p>${skill.description}.
+                            </div>
+                        </div>
+                    </div>
+        `
+    })
+
+    hobbies.forEach(function(hobbie,index){
+        rowHobbies.innerHTML += `
+            <div class="col-lg-4 p-4 col-md-10 text-center">
+                <img src="${hobbie.img}" alt="Hobbie ${hobbie.title}" class="w-75 img-fluid">
+                <h3 class="pt-5">${hobbie.title}</h3>
+            </div>
+        `
+    })
+    
+}
+
 

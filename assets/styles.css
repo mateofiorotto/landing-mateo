@@ -83,6 +83,12 @@ p {
     text-underline-offset: 5px;  /* Ajusta este valor según sea necesario */
   }
 
+  .light .underlined-default {
+        text-decoration: underline;
+        text-decoration-color: rgb(15, 43, 200);    
+        text-underline-offset: 5px;  /* Ajusta este valor según sea necesario */
+  }
+
 /*NAV, HEADER*/
 .navbar {
     background-color: transparent !important;
