@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DotDager: DEV - Software Developer, Projects, Pickles Supremacy</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="DotDager is a software developer specializing in C# and web development. Explore my projects, skills, and social media links." />
+    <meta name="keywords"
+        content="DotDager, Software Developer, C#, Projects, Pickles Supremacy, GitHub, YouTube, Instagram, LinkedIn" />
+    <meta name="author" content="Mariano, DotDager" />
+    <meta property="og:title" content="DotDager - Software Developer" />
+    <meta property="og:description"
+        content="Explore the world of DotDager: a software developer with a passion for C#, web development, and creative projects." />
+    <meta property="og:image" content="imgs/dotdager.jpg" />
+    <meta property="og:url" content="https://www.dotdager.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DotDager - Software Developer" />
+    <meta name="twitter:description"
+        content="Explore the world of DotDager: a software developer with a passion for C#, web development, and creative projects." />
+    <meta name="twitter:image" content="imgs/dotdager.jpg" />
+
+    <!-- Link to Favicon -->
+    <link rel="icon" href="imgs/favicon.webp" type="image/x-icon">
+
+    <!-- External Styles -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="
+    https://cdn.jsdelivr.net/npm/flag-icon-css@4.1.7/css/flag-icons.min.css
+    " rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+    <div id="site">
+    <section id="hero" class="banner">
+        <div class="container">
+            <header data-aos="fade-down">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+
+                        <!-- Botón hamburguesa visible en md o menor -->
+                        <button id="btn-nav" class="text-center m-auto navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="bi bi-caret-down-fill"><span>icon arrow</span></i>
+                        </button>
+
+                        <!-- Menú de navegación -->
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul
+                                class="navbar-nav m-auto justify-content-center align-items-center text-center mt-3 mt-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#hero"><i
+                                            class="bi bi-house-fill ms-md-0 ms-lg-3 me-3 ms-xl-0"><span>Home
+                                                icon</span></i>Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#skills"><i
+                                            class="bi bi-keyboard-fill ms-md-0 ms-lg-3 me-3 ms-xl-0"><span>About
+                                                icon</span></i>Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about-me"><i
+                                            class="bi bi-person-fill ms-md-0 ms-lg-3 me-3 ms-xl-0"><span>Contact
+                                                icon</span></i>About Me</a>
+                                </li>
+                                <li id="mode-toggler" class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-sun-fill"><span>Dark/Light
+                                                mode</span></i></a>
+                                </li>
+                                <li id="language-toggler" class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fs-2 flag-icon flag-icon-es"></i> <span>ESP</span>
+                                    </a>
+                                    <ul class="dropdown-menu ms-0 ms-lg-5 fs-4" aria-labelledby="languageDropdown">
+                                        <li class="mb-3">
+                                            <a class="dropdown-item" href="#">
+                                                <i class="flag-icon flag-icon-es me-2 "></i> Español
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="index.html">
+                                                <i class="flag-icon flag-icon-us me-2"></i> Inglés
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="pt-4 row justify-content-lg-center align-items-lg-center banner-int">
+                <div class="col-lg-6 col-md-12" data-aos="fade-right">
+                    <h1 class="mb-4 bold text-center text-lg-start"><span class="titulo-h1">DotDager</span>
+                        <a class="typewrite" data-period="2000"
+                            data-type='[ "Hi, Im DotDager", "Software Developer", "Long Live C#", "Pickles Supremacy" ]'>
+                            <span class="wrap"></span>
+                        </a>
+                    </h1>
+                    <p class="text-center text-lg-start">Soy <span class="bold">Mariano Villa</span>, más conocido como 
+                        <span class="bold">DotDager</span>. 
+                        <strong>Desarrollador Full-stack/lead de software</strong> con pasión por el <strong>código sólido</strong> y productos increíbles.
+                    </p>
+                    <ul
+                        class="row list-unstyled fs-1 icons-ul justify-content-center align-items-center justify-content-lg-start align-items-lg-start pt-3 pt-lg-0">
+                        <li class="col-2"><a target="_blank" rel="noopener noreferrer"
+                                href="https://github.com/MarianoVilla"><i class="bi bi-github"><span>GitHub
+                                        DotDager</span></i></a></li>
+                        <li class="col-2"><a target="_blank" rel="noopener noreferrer"
+                                href="https://www.youtube.com/@DotDager"><i class="bi bi-youtube"><span>YouTube
+                                        DotDager</span></i></a></li>
+                        <li class="col-2"><a target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/dager.32/"><i class="bi bi-instagram"><span>Instagram
+                                        DotDager</span></i></a></li>
+                        <li class="col-2"><a target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/in/mariano-luis-villa/"><i
+                                    class="bi bi-linkedin"><span>LinkedIn DotDager</span></i></a></li>
+                        <li class="col-2"><a target="_blank" rel="noopener noreferrer"
+                                href="portafoliosdesarrollador@gmail.com"><i class="bi bi-envelope-fill"><span>Mail
+                                        DotDager</span></i></a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-md-12" data-aos="fade-left">
+                    <img class="d-block ms-auto me-auto img-fluid" src="imgs/dotdager.webp" alt="icon dotdager">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container" id="skills">
+        <div>
+
+            <h2 data-aos="fade-right" class="text-center text-lg-start pb-5 pb-lg-0">Skills and Projects</h2>
+
+            <div class="row me-2 ms-2 me-lg-0 ms-lg-0">
+
+                <!--C#-->
+                <div data-aos="fade-up" class="col-lg-6 col-md-10 pt-3 pb-3 m-auto">
+                    <div class="row mt-5 mb-5">
+                        <!--img-->
+                        <div class="border bg-light p-4 col-lg-3 d-flex justify-content-center align-items-center">
+                            <img class="img-fluid w-100" src="imgs/CS.png" alt="C# Icon">
+                        </div>
+                        <!--contenido caja-->
+                        <div class="border p-4 col-lg-8 col-md-12">
+                            <h3>C#</h3>
+                            <p>Lenguaje principal, utilizado en algunos proyectos como servidores, IA, etc. <a class="fw-bold"
+                                    target="_blank" rel="noopener noreferrer"
+                                    href="https://github.com/MarianoVilla?tab=repositories&q=&type=&language=c%23&sort=">Chequea acá</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--NET-->
+                <div data-aos="fade-up" class="col-lg-6 col-md-10 pt-3 pb-3 m-auto">
+                    <div class="row mt-5 mb-5 mt-lg-1 mb-lg-1">
+                        <!--img-->
+                        <div class="border bg-light p-4 col-lg-3 d-flex justify-content-center align-items-center">
+                            <img class="img-fluid w-100" src="imgs/NET.png" alt=".NET Icon">
+                        </div>
+                        <!--contenido caja-->
+                        <div class="border p-4 col-lg-8 col-md-12">
+                            <h3>.NET</h3>
+                            <p>Framework principal para C#, utilizado para algunos servicios y APIs, etc. <a class="fw-bold"
+                                    target="_blank" rel="noopener noreferrer"
+                                    href="https://github.com/MarianoVilla?tab=repositories&q=&type=&language=visual+basic+.net&sort=">Chequea acá</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Python-->
+                <div data-aos="fade-up" class="col-lg-6 col-md-10 pt-3 pb-3 m-auto">
+                    <div class="row mt-5 mb-5 mt-lg-1 mb-lg-1">
+                        <!--img-->
+                        <div class="border bg-light p-4 col-lg-3 d-flex justify-content-center align-items-center">
+                            <img class="img-fluid w-100" src="imgs/Python.png" alt="Python Icon">
+                        </div>
+                        <!--contenido caja-->
+                        <div class="border p-4 col-lg-8 col-md-12">
+                            <h3>Python</h3>
+                            <p>Lenguaje utilizado para pruebas y algunos proyectos freelance. <a class="fw-bold" target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://github.com/MarianoVilla?tab=repositories&q=&type=&language=python&sort=">Chequea acá</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--JS-->
+                <div data-aos="fade-up" class="col-lg-6 col-md-10 pt-3 pb-3 pt-lg-5 pb-lg-5 m-auto">
+                    <div class="row mt-5 mb-5 mt-lg-1 mb-lg-1">
+                        <!--img-->
+                        <div class="border bg-light p-4 col-lg-3 d-flex justify-content-center align-items-center">
+                            <img class="img-fluid w-100" src="imgs/JavaScript.png" alt="JavaScript Icon">
+                        </div>
+                        <!--contenido caja-->
+                        <div class="border p-4 col-lg-8 col-md-12">
+                            <h3>JavaScript</h3>
+                            <p>Utilizado por diversión en proyectos web aleatorios y variados. <a class="fw-bold"
+                                    target="_blank" rel="noopener noreferrer"
+                                    href="https://github.com/MarianoVilla?tab=repositories&q=&type=&language=javascript&sort=">Chequea acá</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--HTML-->
+                <div data-aos="fade-up" class="col-lg-6 col-md-10 pt-3 pb-3 pt-lg-5 pb-lg-5 m-auto">
+                    <div class="row mt-5 mb-5 mt-lg-1 mb-lg-1">
+                        <!--img-->
+                        <div class="border bg-light p-4 col-lg-3 d-flex justify-content-center align-items-center">
+                            <img class="img-fluid w-100" src="imgs/HTML5.png" alt="HTML5 Icon">
+                        </div>
+                        <!--contenido caja-->
+                        <div class="border p-4 col-lg-8 col-md-12">
+                            <h3>HTML5</h3>
+                            <p>Utilizado en algunos videos, en la web, junto con C# y jQuery, etc. <a class="fw-bold"
+                                    target="_blank" rel="noopener noreferrer"
+                                    href="https://github.com/MarianoVilla?tab=repositories&q=&type=&language=javascript&sort=">Chequea acá</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--RUBY-->
+                <div data-aos="fade-up" class="col-lg-6 col-md-10 pt-3 pb-3 pt-lg-5 pb-lg-5 m-auto">
+                    <div class="row mt-5 mb-5 mt-lg-1 mb-lg-1">
+                        <!--img-->
+                        <div class="border bg-light p-4 col-lg-3 d-flex justify-content-center align-items-center">
+                            <img class="img-fluid w-100" src="imgs/Ruby.png" alt="Ruby Icon">
+                        </div>
+                        <!--contenido caja-->
+                        <div class="border p-4 col-lg-8 col-md-12">
+                            <h3>Ruby</h3>
+                            <p>Proyectos variados como un creador de videos que crashea Discord. <a class="fw-bold" target="_blank" rel="noopener noreferrer"
+                                    href="https://github.com/MarianoVilla?tab=repositories&q=&type=&language=ruby&sort=">Chequea acá</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--problem solution-->
+                <div data-aos="fade-up" class="col-lg-9 col-md-10 pt-3 pt-lg-5 m-auto">
+                    <div class="row mt-5 mt-lg-1 ">
+                        <!--img-->
+                        <div class="border bg-light p-4 col-lg-3 d-flex justify-content-center align-items-center">
+                            <img class="img-fluid w-75" src="imgs/problem-solution.png" alt="Problem Solution Icon">
+                        </div>
+                        <!--contenido caja-->
+                        <div class="border p-4 col-lg-8 col-md-12">
+                            <h3>Solución de problemas</h3>
+                            <p>Con años de experiencia en programación, resolvi una variedad de desafíos técnicos, desde simples 
+                                errores hasta complejas optimizaciones de sistemas. <a class="fw-bold" target="_blank" 
+                                rel="noopener noreferrer" href="https://www.youtube.com/@DotDager">Ver mi canal</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--FIN SKILLS-->
+            </div>
+            </div>
+    </section>
+
+    <section class="container" id="about-me">
+        <h2 data-aos="fade-down" class="text-center mb-5 pb-lg-5">About me</h2>
+
+        <ul class="mt-5 row gap-5 gap-lg-0 list-unstyled justify-content-center align-items-center" id="nav-options">
+            <li id="li-information" data-aos="fade-up"
+                class="text-center col-12 col-md-3 col-lg-2 underlined-default active" data-content="about"><a
+                    id="a-information">Info</a></li>
+            <li id="li-hobbies" data-aos="fade-up" class="text-center col-12 col-md-3 co-lg-2" data-content="hobbies"><a
+                    id="a-hobbies">Hobbies</a>
+            </li>
+            <li id="li-secret" data-aos="fade-up" class="text-center col-12 col-md-3 col-lg-2" data-content="secret"><a
+                    id="a-secret">Secreto (?)</a>
+            </li>
+        </ul>
+
+        <div data-aos="fade-up">
+            <article id="information" class="showed-section mt-0 mt-lg-5 pt-5">
+                <div class="row justify-content-center align-items-center">
+
+                    <div class="col-lg-6 p-4 col-md-10">
+                        <h3 class="fs-1 mb-5 mb-lg-4 text-center text-lg-start">¡Hola!</h3>
+                        <p class="text-center text-lg-start">Soy <strong>Mariano Villa, también conocido como DotDager</strong>. Creo contenido en YouTube enfocado en
+                            <strong>hacer que la programación y la tecnología sean más accesibles y divertidas</strong>. Cubro una variedad
+                            de temas en el mundo de la programación, simplificando ideas complejas con un toque de humor.</p>
+                        <p class="text-center text-lg-start">Además de mi canal de YouTube, <strong>contribuyo a proyectos de código abierto en GitHub</strong> y colaboro con
+                            otros desarrolladores. Me apasiona compartir conocimientos y construir una comunidad donde todos podamos
+                            aprender juntos.</p>
+                    </div>
+
+                    <div class="col-lg-6 p-4 col-md-10">
+                        <img class="img-fluid w-75 m-auto d-block" src="imgs/photo-about.webp" alt="Photo about">
+                    </div>
+
+                </div>
+            </article>
+
+            <article id="hobbies" class="mt-0 mt-lg-5 pt-5">
+                <div class="row justify-content-center align-items-center">
+
+                    <div class="col-lg-4 p-4 col-md-10 text-center">
+                        <img src="imgs/guitar.webp" alt="playing guitar" class="w-75 img-fluid">
+                        <h3 class="pt-5">Tocar Guitarra</h3>
+                    </div>
+
+                    <div class="col-lg-4 p-4 col-md-10 text-center">
+                        <img src="imgs/lol.webp" alt="pickles" class="w-75 img-fluid">
+                        <h3 class="pt-5">Jugar LOL</h3>
+                    </div>
+
+                    <div class="col-lg-4 p-4 col-md-10 text-center">
+                        <img src="imgs/programming.webp" alt="pickles" class="w-75 img-fluid">
+                        <h3 class="pt-5">Programar</h3>
+                    </div>
+
+                    <div class="col-lg-4 p-4 col-md-10 text-center">
+                        <img src="imgs/bath.webp" alt="pickles" class="w-75 img-fluid">
+                        <h3 class="pt-5">Bañarme</h3>
+                    </div>
+
+                    <div class="col-lg-4 p-4 col-md-10 text-center">
+                        <img src="imgs/pickles.webp" alt="pickles" class="w-75 img-fluid">
+                        <h3 class="pt-5">Admirar Pepinos</h3>
+                    </div>
+
+                    <div class="col-lg-4 p-4 col-md-10 text-center">
+                        <img src="imgs/study.webp" alt="pickles" class="w-75 img-fluid">
+                        <h3 class="pt-5">Estudiar</h3>
+                    </div>
+
+                </div>
+            </article>
+
+            <article id="secret" class="mt-0 mt-lg-5 pt-5">
+                <div class="row justify-content-center align-items-center">
+                    <h3 class="text-center p-3">Tocame</h3>
+                    <div class="col-10 d-flex justify-content-center p-5">
+                        <img src="imgs/cucumber.png" 
+                             alt="Cucumber" 
+                             class="img-fluid" 
+                             id="photo-cucumber">
+                    </div>
+                </div>
+
+            </article>
+            </div>
+    </section>
+
+    <footer class="pt-0 pt-lg-3 pb-0 pb-lg-3 container text-center">
+        <p>Made by <a class="text-decoration-none text-footer" target="_blank" rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/mateo-fiorotto/">Mateo Fiorotto</a></p>
+    </footer>
+</div>
+
+    <section id="lumber-section" class="d-none">
+        <button id="close-lumber-section" class="close-btn">
+            X
+        </button>
+        <h2 class="d-none">Lumber game</h2>
+        <iframe title="Lumber Jack Game" src="https://tbot.xyz/lumber/" class="lumberjack-game m-auto d-block"></iframe>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/flag-icon-css@4.1.7/svgo.config.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

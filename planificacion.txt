@@ -1,0 +1,26 @@
+
+
+MOBILE:
+Navbar icon, favicon y arreglar logo en mobile
+
+arreglar redes mobile y espaciados hero 
+
+----------------------------------
+IDEA PARA TARJETAS DE HABILIDADES
+
+IMG | TITULO
+IMG | DESC
+
+-----------------------------------
+SOBRE MI 
+
+About me   -        hobbies             - Secret (lumber)
+--------            -------             ------
+
+  foto -
+gustos, descri   icono, titulo, desc 3 cols
+        pcion           
+                   
+    
+
+    TOUCH THE PICKLE --> ICONO (ABRE MODAL DE LUMBER)
