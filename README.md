@@ -1,4 +1,4 @@
-# Random Password Generator
+# Simple Landing Page Mateo Fiorotto
 
 ### ENG
 This project is a simple landing page created for fun.
